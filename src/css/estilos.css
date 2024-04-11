@@ -1,0 +1,53 @@
+@charset "UFT-08";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho{
+    background: black;
+    display: flex;   
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.cabecalho .logo{
+    text-align: center;    
+}
+
+.cabecalho .menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home{    
+    height: 100vh;
+    background-image: url('../../src/img/BANNER_HEAD_EST19922.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.informacoes h1{
+    font-size: 70px;
+    padding: 200px 0px 0px 50px;    
+    text-align: justify;
+}
+
+.projetos .container-projetos{
+    background-color: rgba(14, 12, 12, 0.875);
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
